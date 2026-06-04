@@ -10,7 +10,7 @@ if not api_key:
 
 genai.configure(api_key=api_key)
 
-model = genai.GenerativeModel('gemini-1.0-pro')
+model = genai.GenerativeModel('gemini-3.5-flash')
 
 def main():
     print("==================================================")
